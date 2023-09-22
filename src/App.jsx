@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "James Cosgrove",
-  title: "Web Designer & Content Creator",
+  title: "Software Developer",
   email: "J.R.Cosgrove@outlook.com",
   gitHub: "Seamus88",
   instagram: "",
