@@ -31,10 +31,12 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Recipe Finder",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A meal preparation tool allowing users to find recipes by ingredient to build shopping lists and build meal plans.",
+    role: 
+      "Project Manager and Webmaster",
+    url: "https://silver-gumdrop-718f29.netlify.app/",
   },
   {
     title: "Web Development for Beginners",
@@ -74,6 +76,7 @@ const Portfolio = () => {
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
+              <p className="small">{project.role}</p>
               <p className="small">{project.description}</p>
             </div>
           ))}
