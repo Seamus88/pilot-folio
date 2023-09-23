@@ -25,20 +25,23 @@ import headshot from "../images/profilepic.png";
 
 const imageAltText = "Abstract rendering of circuits with transparent background";
 
-const Home = ({ name, title }) => {
+const Home = ({ firstName, lastName, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
-      <div style={{ position: "absolute", top: "10rem", left: "2rem", width: "18rem", display: "flex", flexFlow: "row nowrap" }}>
+      <img className="landingpPic" src={image} alt="" style={{height: "100%", width: "auto", overflow: "hidden"}}/>
+      <div style={{ position: "absolute", top: "10rem", left: "2rem", width: "fit-content", display: "flex", flexFlow: "row wrap" }}>
 
         <div style={{margin: "auto 0"}}>
-          <h1>{name}</h1>
+          <h1>{firstName}</h1>
+          <h1>{lastName}</h1>
           <h2>{title}</h2>
         </div>
         <img className="headshot" src={headshot} style={{width: "max-content", height:"auto"}} alt="Headshot of James Cosgrove"/>  
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        <a href="#about">
+          <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        </a>
       </div>
     </section>
   );

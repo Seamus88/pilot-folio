@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I recently graduated from DePaul University with a B.S. in Computer Science. I enjoy finding new or more efficient ways that software can be used to serve people in need.";
+  "I recently graduated from DePaul University with a B.S. in Computer Science. I enjoy finding new or more efficient ways software can be used to assist people in need.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
