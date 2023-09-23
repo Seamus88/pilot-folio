@@ -34,17 +34,15 @@ const projectList = [
     title: "Recipe Finder",
     description:
       "A meal preparation tool allowing users to find recipes by ingredient to build shopping lists and build meal plans.",
-    role: 
-      "Project Manager and Webmaster",
+    role: "Project Manager and Webmaster",
     url: "https://silver-gumdrop-718f29.netlify.app/",
   },
   {
     title: "E-Tarot",
     description:
       "A tarot card application built to replicate how cards are used in the real world for entertainment purposes only.",
-    role:
-      "Personal Project - Full Stack Development",    
-    url: "https://cozcreations.netlify.app/"
+    role: "Personal Project - Full Stack Development",
+    url: "https://cozcreations.netlify.app/",
   },
   {
     title: "My Resume Site",
