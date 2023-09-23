@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{seamus88}.github.io/{pilot-folio}'",
+    "build-gh": "parcel build --public-url 'https://seamus88.github.io/pilot-folio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
