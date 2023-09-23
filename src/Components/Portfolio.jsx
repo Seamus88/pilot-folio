@@ -39,10 +39,10 @@ const projectList = [
     url: "https://silver-gumdrop-718f29.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "E-Tarot",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A tarot card application built to replicate how cards are used in the real world for entertainment purposes only.",
+    url: "https://cozcreations.netlify.app/",
   },
   {
     title: "My Resume Site",
