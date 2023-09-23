@@ -42,7 +42,9 @@ const projectList = [
     title: "E-Tarot",
     description:
       "A tarot card application built to replicate how cards are used in the real world for entertainment purposes only.",
-    url: "https://cozcreations.netlify.app/",
+    role:
+      "Personal Project - Full Stack Development",    
+    url: "https://cozcreations.netlify.app/"
   },
   {
     title: "My Resume Site",
