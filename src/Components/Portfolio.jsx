@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/spikeybg.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Abstract background with spiked shapes";
 
 /**
  * Project list
@@ -61,18 +61,16 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
-        </div>
-        <div className="container">
+      <h2 style={{ textAlign: "center", backgroundColor: "#fff", borderRadius: "10px", border: "#aaa solid 1px", padding: "5px", maxWidth: "fit-content", margin: "auto" }}>Portfolio</h2>
+      <div style={{ width: "100%"}}>
+        <img
+          className="background"
+          src={image}
+          alt={imageAltText}
+        />
+        <div className="container" style={{zIndex: "2", display: "relative", top: "10px", width: "fit-content"}}>
           {projectList.map((project) => (
-            <div className="box" key={project.title}>
+            <div className="box" key={project.title} style={{backgroundColor: "#fff"}}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
