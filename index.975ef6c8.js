@@ -27707,11 +27707,8 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                     marginTop: 0,
                     color: "white"
                 },
-                children: [
-                    "Created by ",
-                    name
-                ]
-            }, void 0, true, {
+                children: "Created by James Cosgrove"
+            }, void 0, false, {
                 fileName: "src/Components/Footer.jsx",
                 lineNumber: 105,
                 columnNumber: 7
