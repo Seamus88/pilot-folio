@@ -61,16 +61,27 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center", backgroundColor: "#fff", borderRadius: "10px", border: "#aaa solid 1px", padding: "5px", maxWidth: "fit-content", margin: "auto" }}>Portfolio</h2>
-      <div style={{ width: "100%"}}>
-        <img
-          className="background"
-          src={image}
-          alt={imageAltText}
-        />
-        <div className="container" style={{zIndex: "2", display: "relative", top: "10px", width: "fit-content"}}>
+      <h2
+        style={{
+          textAlign: "center",
+          backgroundColor: "#fff",
+          borderRadius: "10px",
+          border: "#aaa solid 1px",
+          padding: "5px",
+          maxWidth: "fit-content",
+          margin: "auto",
+        }}
+      >
+        Portfolio
+      </h2>
+      <div style={{ width: "100%" }}>
+        <img className="background" src={image} alt={imageAltText} />
+        <div
+          className="container"
+          style={{ zIndex: "2", display: "relative", top: "10px", width: "fit-content" }}
+        >
           {projectList.map((project) => (
-            <div className="box" key={project.title} style={{backgroundColor: "#fff"}}>
+            <div className="box" key={project.title} style={{ backgroundColor: "#fff" }}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
