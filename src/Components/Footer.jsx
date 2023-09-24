@@ -103,7 +103,7 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Created by {name}
+        Created by James Cosgrove
       </p>
     </div>
   );
@@ -123,7 +123,6 @@ Footer.propTypes = {
   name: PropTypes.string.isRequired,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;
