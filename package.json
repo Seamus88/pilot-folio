@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'http://jamescosgrove.me",
+    "build-gh": "parcel build --public-url 'http://jamescosgrove.me'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
