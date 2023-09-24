@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://Seamus88.github.io/pilot-folio",
+  "homepage": "http://jamescosgrove.me",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Seamus88.github.io/pilot-folio'",
+    "build-gh": "parcel build --public-url 'http://jamescosgrove.me",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
